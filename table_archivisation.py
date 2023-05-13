@@ -19,5 +19,6 @@ def main():
         for sql in sql_statements:
             con.execute(sql)
 
+
 if __name__ == "__main__":
     main()
